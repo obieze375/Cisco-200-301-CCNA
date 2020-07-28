@@ -109,10 +109,10 @@ Router1#show
 
 It's a verb that is used together with other terms to form the full commands.
 
-Try this, type `show?` into the commandline like so:
+Try this, type `show ?` into the commandline like so:
 
 ```text
-Router1#show?
+Router1#show ?
 access-lists             List access lists
 archive                  Archive functions
 arp                      ARP table
@@ -183,7 +183,7 @@ history                  Display the session command history
 
 ## Keyboard Shortcuts
 
-
+![](../../.gitbook/assets/image%20%284%29.png)
 
 
 

@@ -29,4 +29,10 @@
 * [Disclaimer](labs/disclaimer.md)
 * [Network Fundamentals](labs/network-fundamentals/README.md)
   * [Command Line Basics](labs/network-fundamentals/command-line-basics.md)
+  * [Basic Show Commands](labs/network-fundamentals/basic-show-commands.md)
+
+## Practice Questions
+
+* [Router Configuration](practice-questions/router-configuration.md)
+* [TCP/IP Transport and Applications, Connection Establishment and Termination](practice-questions/tcp-ip-transport-and-applications-connection-establishment-and-termination.md)
 
