@@ -1,4 +1,4 @@
-# Router Configuration
+# Routers & Routing
 
 A router is configured like so:
 
