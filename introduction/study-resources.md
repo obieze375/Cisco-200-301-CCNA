@@ -4,7 +4,9 @@ description: The resources used for this study plan
 
 # Study Resources
 
+## Pluralsight
 
+\*\*\*\*[**Introduction to Networking for Cisco CCNA**](https://app.pluralsight.com/library/courses/introduction-networking-cisco-ccna/table-of-contents) ****by [Ross Bagurdes](https://app.pluralsight.com/profile/author/ross-bagurdes)
 
 ## Cisco
 
@@ -57,4 +59,6 @@ Practical Networking .net -- CCNA Curriculum Articles
 * [NAT Terminology Disambiguation](https://www.practicalnetworking.net/series/nat/nat-terminology-disambiguation/)
 * [Learn Cisco's NAT Terminology](https://www.practicalnetworking.net/stand-alone/cisco-nat-terminology/)
 * [Learn to configure NAT on Cisco IOS Routers](https://www.practicalnetworking.net/stand-alone/cisco-nat-configurations-ios-router/)
+
+
 
