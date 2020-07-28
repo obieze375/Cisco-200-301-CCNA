@@ -26,6 +26,7 @@
 
 ## Labs
 
+* [Disclaimer](labs/disclaimer.md)
 * [Network Fundamentals](labs/network-fundamentals/README.md)
   * [Command Line Basics](labs/network-fundamentals/command-line-basics.md)
 

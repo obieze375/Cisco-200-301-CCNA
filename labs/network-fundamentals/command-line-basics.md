@@ -2,7 +2,7 @@
 
 ![This is the Lab Topology used in this page.](../../.gitbook/assets/image%20%283%29.png)
 
-## Command Modes
+## Command Modes & using CLI Help
 
 ```text
 Router1>
@@ -77,6 +77,68 @@ The `#` symbol indicates you have entered the privileged EXEC mode.
 Router1>enable
 Router1#
 ```
+
+## Abbreviations & Autocomplete
+
+The CLI doesn't care if you don't type the full command as long as it isn't ambiguous \(i.e. matches multiple commands\).
+
+### Typing the first few letters of a command
+
+Try this, type `sh` into the commandline like so:
+
+```text
+Router1#sh
+```
+
+Now, press TAB
+
+```text
+Router1#show
+```
+
+The CLI have auto completed `sh` into `show` for you!
+
+### Using abbreviated commands with help \(?\)
+
+Now that you've learnt `sh` is short for `show` that's all fine. But the `show` command in itself doesn't do anything! 
+
+```text
+Router1#show
+%Incomplete command.
+```
+
+It's a verb that is used together with other terms to form the full commands.
+
+Try this, type `show?` into the commandline like so:
+
+```text
+Router1#show?
+access-lists             List access lists
+archive                  Archive functions
+arp                      ARP table
+auto                     Show Automation Template
+cdp                      CDP information
+class-map                Show QoS Class-Map
+clns                     CLNS network information
+clock                    Display the system clock
+compress                 Show compression statistics
+configuration            Contents of Non-Volatile memory
+controllers              Interface controller status
+crypto                   Encryption module
+debugging                State of each debugging option
+dhcp                     Dynamic Host Configuration Protocol status
+dialer                   Dialer parameters and statistics
+dmvpn                    Display DMVPN session related information
+eigrp                    EIGRP show commands
+event                    Embedded event related commands
+flash:                   display information about flash: file system
+flow                     Flow information
+frame-relay              Frame-Relay information
+glbp                     GLBP information
+history                  Display the session command history
+```
+
+
 
 
 
