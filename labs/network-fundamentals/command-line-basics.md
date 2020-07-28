@@ -2,7 +2,7 @@
 
 ![This is the Lab Topology used in this page.](../../.gitbook/assets/image%20%283%29.png)
 
-## Using Cisco CLI Help
+## Command Modes
 
 ```text
 Router1>
@@ -18,7 +18,7 @@ The `>` symbol at the end indicates you are in user EXEC mode.
 EXEC mode is a read-only mode where you can not configure or alter the router settings. However, you can view system information and operations.
 {% endhint %}
 
-### \(?\) HELP command
+### HELP \(?\) command
 
 By typing the question mark \(?\) key on the command-line you will show the commands that are available to you.
 
@@ -49,6 +49,33 @@ slip                     Start a Serial-line IP (SLIP)
 systat                   Display information about terminal lines
 telnet                   Open a telnet connection
 terminal                 Set terminal line parameters
+```
+
+### HELP \(\*?\) command filter
+
+You can display commands that start with specific letters by issuing typing them in front of the question mark.
+
+`c?` will show all commands that start with c. In EXEC mode this would be the result:
+
+```text
+Router1>c?
+connect
+```
+
+`l?` would give this result:
+
+```text
+Router1>l?
+lock    login    logout
+```
+
+### Priviledged EXEC mode
+
+The `#` symbol indicates you have entered the privileged EXEC mode.
+
+```text
+Router1>enable
+Router1#
 ```
 
 
