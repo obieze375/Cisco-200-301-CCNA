@@ -10,7 +10,7 @@ Router1>
 
 When pressing Enter key in the commandline the `Router1>` prompt appears.
 
-### EXEC mode
+### user EXEC mode
 
 The `>` symbol at the end indicates you are in user EXEC mode.
 
@@ -18,7 +18,7 @@ The `>` symbol at the end indicates you are in user EXEC mode.
 EXEC mode is a read-only mode where you can not configure or alter the router settings. However, you can view system information and operations.
 {% endhint %}
 
-### HELP \(?\) command
+### Help \(?\) command
 
 By typing the question mark \(?\) key on the command-line you will show the commands that are available to you.
 
@@ -51,7 +51,7 @@ telnet                   Open a telnet connection
 terminal                 Set terminal line parameters
 ```
 
-### HELP \(\*?\) command filter
+### Help \(\*?\) command filter
 
 You can display commands that start with specific letters by issuing typing them in front of the question mark.
 
@@ -69,7 +69,7 @@ Router1>l?
 lock    login    logout
 ```
 
-### Priviledged EXEC mode
+### priviledged EXEC mode
 
 The `#` symbol indicates you have entered the privileged EXEC mode.
 
@@ -137,6 +137,51 @@ frame-relay              Frame-Relay information
 glbp                     GLBP information
 history                  Display the session command history
 ```
+
+## CLI Syntax Errors
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Error Message</th>
+      <th style="text-align:left">Cause</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><code>Router1&gt;s clock</code>
+        </p>
+        <p><code>% Ambiguous command:              &quot;s clock&quot;</code>
+        </p>
+      </td>
+      <td style="text-align:left">There is more than one possible command in the CLI for the abbreviation
+        you are trying to use.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><code>Router1&gt;show</code>
+        </p>
+        <p><code>%Incomplete command</code>
+        </p>
+      </td>
+      <td style="text-align:left">When your input is a partial command or incomplete.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><code>Router1&gt;shov clock</code>
+          <br /><code>           ^</code>
+        </p>
+        <p><code>% Invalid input detected at &apos;^&apos; marker.</code>
+        </p>
+      </td>
+      <td style="text-align:left">Whenever the input entered does not match any available commands. Usually
+        caused by typos.</td>
+    </tr>
+  </tbody>
+</table>
+
+## Keyboard Shortcuts
 
 
 
