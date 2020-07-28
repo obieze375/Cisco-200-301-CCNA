@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Resources](README.md)
+* [Study Plan](study-plan.md)
 
