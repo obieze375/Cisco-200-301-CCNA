@@ -16,4 +16,10 @@
   * [1.1.d Access points](1.0-network-fundamentals/1.1-explain-the-role-and-function-of-network-components/1.1.d-access-points.md)
   * [1.1.e Controllers \(Cisco DNA Center and WLC\)](1.0-network-fundamentals/1.1-explain-the-role-and-function-of-network-components/1.1.e-controllers-cisco-dna-center-and-wlc.md)
   * [1.1.f Endpoints](1.0-network-fundamentals/1.1-explain-the-role-and-function-of-network-components/1.1.f-endpoints.md)
+  * [1.1.g Servers](1.0-network-fundamentals/1.1-explain-the-role-and-function-of-network-components/1.1.g-servers.md)
+
+## 1.2 Describe characteristics of network topology architectures
+
+* [1.2.a 2 tier](1.2-describe-characteristics-of-network-topology-architectures/1.2.a-2-tier.md)
+* [1.2.b 3 tier](1.2-describe-characteristics-of-network-topology-architectures/1.2.b-3-tier.md)
 
