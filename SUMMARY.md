@@ -24,3 +24,8 @@
 
 ## 2.0 Network Access
 
+## Labs
+
+* [Network Fundamentals](labs/network-fundamentals/README.md)
+  * [Command Line Basics](labs/network-fundamentals/command-line-basics.md)
+
