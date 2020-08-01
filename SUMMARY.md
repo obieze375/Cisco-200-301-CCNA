@@ -37,3 +37,7 @@
   * [Calculating OSPF cost](practice-questions/router-configuration/calculating-ospf-cost.md)
 * [TCP/IP Transport and Applications, Connection Establishment and Termination](practice-questions/tcp-ip-transport-and-applications-connection-establishment-and-termination.md)
 
+## Uncategorized Notes
+
+* [TCP/IP and OSI models](uncategorized-notes/tcp-ip-and-osi-models.md)
+
