@@ -4,10 +4,21 @@
 
 ![](../.gitbook/assets/image%20%289%29.png)
 
+The OSI model is the preferred reference model for describing network communications.  
+The TCP/IP protocol is the preferred protocol stack in most networks today.
+
+There exists a OSI protocol but it failed to become widely adopted at the early inception when TCP/IP had already been established. This is why the use of TCP/IP has now become standard.
+
+
+
 ### 7 - Application Layer
 
 * The visual representation of the data displayed to the end-user.
 * The data processing that is done by an application like a web browser resides in the application layer.
+
+### 6 - Presentation Layer
+
+### 5 - Session Layer
 
 ### 4 - Transport Layer
 
