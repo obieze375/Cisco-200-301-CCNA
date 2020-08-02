@@ -28,7 +28,10 @@ Segment: a chunk of data, with a transport layer header.
 
 ### 3 - Network Layer
 
-Packet, a chunk of data, with a network layer header.
+Packet, a chunk of data, with a network layer header.  
+Packets are encapsulated in a frame. 
+
+Think about it like the mail inside an envelope. When the packet travels across routers, the addressing is changed on the envelope \(frame\) and passed further along the network until it reaches its destination.
 
 ![](../.gitbook/assets/image%20%2825%29.png)
 
@@ -37,6 +40,8 @@ Packet, a chunk of data, with a network layer header.
 ![](../.gitbook/assets/image%20%2813%29.png)
 
 Frame, a chunk of data, with a Data Link Layer header. The frame encapsulates the packet which contains a segment that contains the payload.
+
+The data link layer is responsible communication, i.e. passing frames within the local network only.
 
 ### 1 - Physical Layer
 
