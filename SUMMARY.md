@@ -41,3 +41,7 @@
 
 * [TCP/IP and OSI models](uncategorized-notes/tcp-ip-and-osi-models.md)
 
+---
+
+* [Subnetting](subnetting.md)
+
