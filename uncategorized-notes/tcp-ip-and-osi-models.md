@@ -9,7 +9,7 @@ The TCP/IP protocol is the preferred protocol stack in most networks today.
 
 There exists a OSI protocol but it failed to become widely adopted at the early inception when TCP/IP had already been established. This is why the use of TCP/IP has now become standard.
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../.gitbook/assets/image%20%2815%29.png)
 
 ### 7 - Application Layer
 
@@ -24,17 +24,17 @@ There exists a OSI protocol but it failed to become widely adopted at the early 
 
 Segment: a chunk of data, with a transport layer header.
 
-![TCP Segment Header](../.gitbook/assets/image%20%2816%29.png)
+![TCP Segment Header](../.gitbook/assets/image%20%2817%29.png)
 
 ### 3 - Network Layer
 
 Packet, a chunk of data, with a network layer header.
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 ### 2 - Data Link Layer
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 Frame, a chunk of data, with a Data Link Layer header. The frame encapsulates the packet which contains a segment that contains the payload.
 
