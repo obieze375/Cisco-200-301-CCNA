@@ -24,6 +24,8 @@
   * [1.2.d WAN](1.0-network-fundamentals/1.2-describe-characteristics-of-network-topology-architectures-1/1.2.d-wan.md)
   * [1.2.e Small office/home office \(SOHO\)](1.0-network-fundamentals/1.2-describe-characteristics-of-network-topology-architectures-1/1.2.e-small-office-home-office-soho.md)
   * [1.2.f On-premises and cloud](1.0-network-fundamentals/1.2-describe-characteristics-of-network-topology-architectures-1/1.2.f-on-premises-and-cloud.md)
+* [1.3 Compare physical interface and cabling types](1.0-network-fundamentals/1.3-compare-physical-interface-and-cabling-types/README.md)
+  * [1.3.a Single-mode fiber, multimode fiber, copper](1.0-network-fundamentals/1.3-compare-physical-interface-and-cabling-types/1.3.a-single-mode-fiber-multimode-fiber-copper.md)
 
 ## 2.0 Network Access
 
