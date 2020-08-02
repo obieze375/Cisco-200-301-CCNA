@@ -22,6 +22,7 @@
   * [1.2.b 3 tier](1.0-network-fundamentals/1.2-describe-characteristics-of-network-topology-architectures-1/1.2.b-3-tier.md)
   * [1.2.c Spine-leaf](1.0-network-fundamentals/1.2-describe-characteristics-of-network-topology-architectures-1/1.2.c-spine-leaf.md)
   * [1.2.d WAN](1.0-network-fundamentals/1.2-describe-characteristics-of-network-topology-architectures-1/1.2.d-wan.md)
+  * [1.2.e Small office/home office \(SOHO\)](1.0-network-fundamentals/1.2-describe-characteristics-of-network-topology-architectures-1/1.2.e-small-office-home-office-soho.md)
 
 ## 2.0 Network Access
 
