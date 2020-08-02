@@ -2,7 +2,7 @@
 description: What is this about?!?!
 ---
 
-# About
+# Disclaimer
 
 These are my personal study notes for taking the Cisco 200-301 CCNA certification.  
 They're made publicly available using GitBook with GitHub integration.
