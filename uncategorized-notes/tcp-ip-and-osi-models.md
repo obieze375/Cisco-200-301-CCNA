@@ -30,7 +30,7 @@ Segment: a chunk of data, with a transport layer header.
 
 Packet, a chunk of data, with a network layer header.
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
 ### 2 - Data Link Layer
 
