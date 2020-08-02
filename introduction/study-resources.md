@@ -60,7 +60,7 @@ Practical Networking .net -- CCNA Curriculum Articles
 * [Learn Cisco's NAT Terminology](https://www.practicalnetworking.net/stand-alone/cisco-nat-terminology/)
 * [Learn to configure NAT on Cisco IOS Routers](https://www.practicalnetworking.net/stand-alone/cisco-nat-configurations-ios-router/)
 
-## Book - Official Cert Guide, Volume 1 by Wendel Odom
+## Book - Official Cert Guide, Volume 1 & 2 by Wendel Odom
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
