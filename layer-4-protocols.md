@@ -16,5 +16,25 @@ The protocols mainly used are
 * Transmission Control Protocol \(TCP\)
 * User Datagram Procol \(UDP\)
 
+### Multiplexing
+
+For multiple applications from the same IP address to communicate with the same protocols at the same time the concept of multiplexing is used to solve the problem.
+
+Multiplexing relies on a concept called a socket. A socket consists of three things:
+
+* An IP address 
+* A transport protocol 
+* A port number
+
+### Port numbers
+
+
+
+* Well Known \(System\) Ports: Numbers from 0 to 1023, assigned by IANA, with a stricter review process to assign new ports than user ports.  
+* User \(Registered\) Ports: Numbers from 1024 to 49151, assigned by IANA with a less strict process to assign new ports compared to well-known ports.  
+* Ephemeral \(Dynamic, Private\) Ports: Numbers from 49152 to 65535, not assigned and intended to be dynamically allocated and used temporarily for a client application while the app is running.
+
+
+
 
 
