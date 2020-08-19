@@ -6,6 +6,8 @@
 
 **Classful addressing**
 
+When IP-addressing was developed there were 3 original classes
+
 | Class | First octet range | Octets representing network port | Binary |
 | :--- | :--- | :--- | :--- |
 | Class C | 192 - 223 | first three octets | The value of first two binary places in the first octet must be 11. |
