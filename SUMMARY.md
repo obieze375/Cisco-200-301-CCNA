@@ -45,6 +45,7 @@
 ## Uncategorized Notes
 
 * [Collision Domains](uncategorized-notes/collision-domains-and-broadcast-domains.md)
+* [Broadcast Domains](uncategorized-notes/broadcast-domains.md)
 * [TCP/IP and OSI models](uncategorized-notes/tcp-ip-and-osi-models.md)
 * [Subnetting](uncategorized-notes/subnetting/README.md)
   * [Hexadecimals](uncategorized-notes/subnetting/hexadecimals.md)
