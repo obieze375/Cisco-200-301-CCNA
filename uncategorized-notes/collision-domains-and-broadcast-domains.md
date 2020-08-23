@@ -1,14 +1,19 @@
 # Collision Domains and Broadcast Domains
 
-## Carrier-sense multiple access with collision detection \(CSMA/CD\) <a id="firstHeading"></a>
-
-
-
 ### Collision Domain
 
 A collision domain is the set of NICs and device ports for which if they sent a frame at the same time, the frames would collide.
 
 This means each collision domain only can have one sender at a time.
+
+Collisions typically happen in half duplex links, where the same link is used for both receiving and transmitting. This was mostly a concern a long time ago when the half duplex link was common. 
+
+Any link that uses full duplex \(on both ends\) does not have collisions. Thereby CSMA/CD would no longer be necessary and can be turned off.
+
+**Then why does this matter still?**  
+Well, a collision can still happen in networks. There's the possibility that whenever a port happens to use half duplex instead of full duplex, by the result of autonegotiation, incorrect configuration, or any other reason - collisions can start to occur.
+
+
 
 ### Hubs
 
