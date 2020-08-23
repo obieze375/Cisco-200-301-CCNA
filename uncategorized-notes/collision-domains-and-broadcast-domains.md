@@ -1,6 +1,4 @@
-# Collision Domains and Broadcast Domains
-
-### Collision Domain
+# Collision Domains
 
 A collision domain is the set of NICs and device ports for which if they sent a frame at the same time, the frames would collide.
 
@@ -12,6 +10,15 @@ Any link that uses full duplex \(on both ends\) does not have collisions. Thereb
 
 **Then why does this matter still?**  
 Well, a collision can still happen in networks. There's the possibility that whenever a port happens to use half duplex instead of full duplex, by the result of autonegotiation, incorrect configuration, or any other reason - collisions can start to occur.
+
+### Summary
+
+* LAN switches each separate interface is a separate instance of a collision domain.
+* LAN bridges, also has each separate interface making a separate instance of a collision domain, although fewer compared to a switch because it has less ports.
+* Routers place each LAN interface into a separate collision domain. 
+* WAN interfaces are not applicable in terms of collision domains.
+* LAN hubs do NOT place each interface into a separate collision domain.
+* A modern LAN with all LAN switches and routers, with full duplex on each link on all ends, would have no collisions at all.
 
 
 
