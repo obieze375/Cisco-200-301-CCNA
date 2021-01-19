@@ -13,5 +13,5 @@ IPv6 subnet masks cannot be written the same way as IPv4 in decimals, hence usag
 
 Every IPv6 device will have multiple addresses but one global address \(public address\).
 
-
+![Between a byte and a bit there&apos;s a nibble.](../.gitbook/assets/image%20%2827%29.png)
 
