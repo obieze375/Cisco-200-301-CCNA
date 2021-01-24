@@ -5,9 +5,8 @@
 * Generally inherits the usage and properties of IPv4 except of the address shape \(hexadecimal\).
 * IPv6 is also layer 3 addressing.
 * IPv6 ranges also have a network and host address.
-
-IPv4 is dotted decimal while IPv6 is hexadecimal.  
-IPv6 subnet masks cannot be written the same way as IPv4 in decimals, hence usage of CIDR exclusively.
+* IPv4 is dotted decimal while IPv6 is hexadecimal.
+* IPv6 subnet masks cannot be written the same way as IPv4 in decimals, hence usage of CIDR exclusively.
 
 ### Remarkable difference: The concept of a Global Address
 
@@ -29,6 +28,11 @@ Every IPv6 device will have multiple addresses but one global address \(public a
 | 3 | Global | 001... \(first three\) | 2000::/3 \(2000 - 3fff\) |
 | 4 | Multicast | 1111 1111... \(first eight\) | FF00::/8 |
 | 5 | Link Local | 1111 1110 10... \(first ten\) | FE80::/10 |
+
+### IPv6 Subnetting
+
+Most network environments will split IPv6 addresses right down the middle.  
+
 
 
 
